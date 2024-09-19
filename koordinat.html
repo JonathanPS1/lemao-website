@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Link Koordinat</title>
+  <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <!-- icon -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+  <!-- navbar -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">LemaO<span>Burger's</span> </a>
+    <div class="navbar-nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#listmenu">Menu</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  <!-- icon -->
+    <div class="navbar-icon">
+      <a href="#" id="search"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+  <!-- GAMBAR UNTUK KOORDINAT -->
+  <div class="gambar-container">
+    <img src="/img/1.jpg" alt="Gambar" usemap="#peta" width="100%">
+    <img src="/img/left.png">
+    <img src="/img/right.png">
+  </div>
+  <map name="peta">
+    <area shape="circle" coords="770,190,60" href="index.html" alt="Koordinat 1">
+    <area shape="circle" coords="765,150,60" href="index.html" alt="Koordinat 2">
+    <area shape="circle" coords="765,100,62" href="index.html" alt="Koordinat 3">
+  </map>
+  <div class="berjalan">
+    <p>&copy; Since 2023 - Lemao Burger's</p>
+  </div>
+  <script>
+    feather.replace();
+  </script>
+  <!-- js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
