@@ -104,5 +104,3 @@ Visually appealing cards with detailed descriptions of our burger series.
 Enjoy the ultimate burger experience with **LemaOBurger's**!
 
 ---
-
-You can customize image paths, social links, and other details based on your preferences or repository specifics.
